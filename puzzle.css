@@ -1,0 +1,97 @@
+:root{
+    font-size: 1rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #7e2780;
+    background-image: url('giphy2.gif');
+    background-repeat: repeat;
+    background-size: 100% auto;
+
+}
+
+
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: rgb(230, 173, 230);
+    border: 4.5px solid #d64ec2;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 0.5px solid #ffffff;
+}
+#turns {
+    font-weight: bold;
+    color: #7e2780;
+    /* bottom: 180px; */
+}
+h1 {
+    color: #2a2a2a;
+    position: fixed;
+    width: 100%;
+    bottom: 6rem;
+}
+.container {
+    position: fixed;
+    width: 100%;
+    bottom: 4.375rem;
+}
+/* CSS */
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #7e2e67 0, #ff54da 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #b70d98 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #a2788f 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #b764a9 0 3px 7px inset;
+    transform: translateY(2px);
+}

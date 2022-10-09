@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ARMY</title>
+        <link rel="stylesheet" href="puzzle.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+
+        <script defer src="Puzzle.js"></script>
+    </head>
+
+    <body>
+        <div id="board">
+        </div>
+        <div class="container" >
+            <h1>Turns: <span id="turns">0</span></h1>
+            <br/>
+            <input type="button" class="button-29" role="button" value="Change Bts Member" onClick="randImg()" />
+        </div>
+    <div style="text-align: right; position: fixed; z-index:9999999; bottom: 0; width: auto; right: 1%; cursor: pointer;
+    line-height: 0; display:block !important;">
+    </div>
+
+    <img src="reset.png" id="reset" onclick="location.reload()" alt="">    
+</html>
